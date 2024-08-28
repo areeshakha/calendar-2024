@@ -1,0 +1,71 @@
+.container{
+  
+  margin: 50px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #0d1c5e;
+  
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #ffffff;
+  text-align: center;
+}
+.day {
+  padding: 10px 0;
+  background: #d1f7c7;
+  margin: 0;
+}
+
+.day li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.day li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+.btn{
+margin-left: 1000px;
+color: white;
+background-color: #0d1c5e;
+width: 90px;
+height: 40px;
+border-radius: 50px;
+font-weight: bold;}
+.btn:hover{
+  background-color: rgb(188, 253, 179);
+  color: #0d1c5e;
+}
+.previous{
+  margin-left: 50px;
+color: white;
+background-color: #0d1c5e;
+width: 90px;
+height: 40px;
+border-radius: 50px;
+font-weight: bold;
+}
+.previous:hover{
+  background-color: rgb(188, 253, 179);
+  color: #0d1c5e;
+}
+.top{
+  background-color: #1abc9c;
+  width: 500px;
+  margin-left: 380px;
+border-radius: 50px;
+border-color: #0d1c5e;
+}
